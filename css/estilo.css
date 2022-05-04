@@ -1,0 +1,361 @@
+/* Estilo general de la pagina */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url(../Images/body-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+}
+
+/* Header con logo y barra de busqueda */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+/* Contenedor del logo */
+.div-logo {
+    display: flex;
+    max-width: 500px;
+    padding: 0 30px;
+}
+
+.logoimg {
+    width: 100%;
+    max-width: 480px;
+}
+
+/* Contenedor de barra de busqueda */
+.div-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    max-width: 500px;
+}
+
+.div-search-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/* Imagen del header */
+
+.div-header-pic {
+    max-height: 450px;
+}
+
+.header-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Barra de navegacion */
+.nav-div {
+    max-height: 462px;
+    padding: 5px;
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, .7));
+}
+
+/* Lista de navegacion */
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.nav-list li {
+    border: 1px dashed gray;
+    border-radius: 15%;
+    box-shadow: 10px 10px 10px 0 black;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+    width: 180px;
+}
+
+.nav-list li:hover {
+    background-color: grey;
+    color: white;
+}
+
+.nav-list li.selected {
+    background-color: rgb(66, 10, 0);
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 500ms;
+}
+
+.nav-list a:visited {
+    color: white;
+}
+
+/* Contenido principal */
+.div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;  
+}
+
+h2, h3, li, p {
+    box-shadow: 10px 10px 10px 0 black;
+    background: rgba(0, 0, 0, .6);
+}
+
+/*Links acceso rapido*/
+.divgplist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.gpul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.gpul li {
+    border: 1px dashed white;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.gpul li:hover {
+    background-color: gray;
+}
+
+.gplinks {
+    color: white;
+}
+
+.gplinks:visited {
+    color: white;
+}
+
+.linkgoback {
+    margin-top: 30px;
+}
+
+/*Estilo de contenido de temporada 2022*/
+
+.div-season {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    max-width: 1000px;
+}
+
+/*Estilo de elem "p" dentro de div-season*/
+
+.div-season p {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*Estilo de elem "h2" dentro de div-season*/
+
+.div-season h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 8px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px rgb(235, 35, 0);
+    border: 1px dashed white;
+    border-radius: 10%;
+    box-shadow: none;
+}
+
+/*Estilo de elem "h3" dentro de div-season*/
+
+.div-season h3 {
+    display: inline-block;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+/*Estilo de elem "table" dentro de div-season*/
+
+.div-season table {
+    box-shadow: 0 0 5px 5px black;  
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilo de elem "tr" dentro de div-season*/
+
+.div-season tr {
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilo de elem "td" dentro de div-season*/
+
+.div-season td {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 100px;
+    border: 1px solid rgb(138, 138, 138);
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.div-season td:hover {
+    background-color: rgb(71, 0, 0);
+    transition: 1s;
+}
+
+.div-gp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer de la pagina */
+.footer {
+    background: linear-gradient(to bottom, transparent, black);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer p {
+    color: white; 
+    width: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo del formulario seccion Contacto */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 10px 0 black;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 5px;    
+}
+
+.contact-form h4 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.label-contact {
+    color: white;
+    padding: 5px;
+}
+
+.textarea-contact {
+    resize: none;
+}
+
+.form-button {
+    width: 100%;
+    max-width: 80px;
+    margin-top: 10px;
+}
+
+.form-button-hider {
+    display: none;
+}
+
+/*Estilo captcha */
+
+.captcha-aligner {
+    display: flex;
+    justify-content: center;
+}
+
+.div-captcha-hider {
+    display: none;
+}
+
+.div-captcha-shower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+.div-captcha-shower input {
+    margin: 0 36px;
+}
+
+.style-captcha1 {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.style-captcha2 {
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+/*Estilo responsive para tabla */
+
+@media screen and (max-width: 600px) {
+    .div-season td {
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 70px;
+        border: 1px solid black;
+        font-size: 8px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+}

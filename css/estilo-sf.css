@@ -1,0 +1,148 @@
+/* Titulo */
+.sftitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 25px 0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0 black;
+    background: rgba(0, 0, 0, .6);
+}
+
+.div-f1-photos-icon {
+    width: 100%;
+    max-width: 50px;
+}
+
+.f1-photos-icon {
+    width: 100%;
+    object-fit: cover;
+}
+
+.f1-photos-title {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(181, 24, 0);
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo seccion ferrari */
+
+.div-second-sf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.div-secondary-info {
+    width: 100%;
+}
+
+/* Reseña historica de ferrari */
+.ferrari-history {
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.ferrari-logo-2 {
+    float: right;
+    width: 100%;
+    max-width: 200px;
+    padding: 4px;
+}
+
+.ferrari-history p {
+    color: white;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+#apptitle {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: rgb(66, 10, 0);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    opacity: 0.85;
+}
+
+/* Galeria de fotos */
+.photo-gallery {
+    border-top: 2px solid beige;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0 black;
+    background: rgba(0, 0, 0, .6);
+
+}
+
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.f1-photos {
+    margin-top: 25px;
+    padding: 15px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-top: 10px;
+}
+
+.preview {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+.photo-preview {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.leclerc {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1px;
+    display: flex;
+    width: 100%;
+    max-width: 150px;
+    max-height: 90px;
+    object-fit: cover;
+    object-position: center; 
+}
